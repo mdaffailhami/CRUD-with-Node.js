@@ -3,7 +3,14 @@
  * @email [mdaffailhami@gmail.com]
  * @create date 2021-01-18 | 20:00:00
  * @modify date 2021-01-19 | 07:38:50
- * @desc [description]
+ * @desc [
+     Repository ini adalah project CRUD
+     kontak yang saya buat dengan menggunakan
+     bahasa Pemrograman JavaScript beserta
+     runtime dan library-nya Node.js dan untuk
+     menyimpan datanya menggunakan JSON
+     (JavaScript Object Notation).
+   ]
  */
 
 // Import Modules
