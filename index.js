@@ -99,6 +99,13 @@ while (true) {
 
       // Meyakinkan user apakah benar-benar ingin menghapusnya
       while (true) {
+        // Menampilkan informasi kontak yg akan dihapus
+        console.group("\nKontak yang akan dihapus {");
+        console.log("Nama :", kontak[yangDiHapus].nama);
+        console.log("Email:", kontak[yangDiHapus].email);
+        console.log("Nomor:", kontak[yangDiHapus].nomor);
+        console.groupEnd();
+        console.log("}");
         const yakinkah = input("Apakah anda yakin ingin menghapus (y/n)? ");
         if (yakinkah.toUpperCase() == "Y") {
           // Menghapuskan kontak
@@ -110,6 +117,7 @@ while (true) {
         }
       }
   }
+  // Jika user ingin keluar dari Program
   if (pilih == "4" || pilih.toUpperCase() == "KELUAR") {
     break;
   }
